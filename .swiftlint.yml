@@ -26,7 +26,6 @@ only_rules:
   - discouraged_none_name
   - discouraged_object_literal
   - discouraged_optional_boolean
-  - discouraged_optional_collection
   - duplicate_enum_cases
   - duplicate_imports
   - duplicated_key_in_dictionary_literal
