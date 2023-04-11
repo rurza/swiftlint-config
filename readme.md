@@ -15,13 +15,3 @@ parent_config: https://raw.githubusercontent.com/sindresorhus/swiftlint-config/m
 *(Replace `main` with a specific commit hash if you want predictable builds)*
 
 2. Follow the [SwiftLint setup instructions](https://github.com/realm/SwiftLint#installation).
-
-## Badge
-
-Show off that you're using this config.
-
-```
-[![sindresorhus's SwiftLint config](https://img.shields.io/badge/SwiftLint-sindresorhus-hotpink.svg)](https://github.com/sindresorhus/swiftlint-config)
-```
-
-[![sindresorhus's SwiftLint config](https://img.shields.io/badge/SwiftLint-sindresorhus-hotpink.svg)](https://github.com/sindresorhus/swiftlint-config)
