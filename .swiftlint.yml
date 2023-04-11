@@ -151,14 +151,8 @@ analyzer_rules:
 for_where:
   allow_for_as_filter: true
 number_separator:
-  minimum_length: 5
+  minimum_length: 7
 identifier_name:
-  max_length:
-    warning: 100
-    error: 100
-  min_length:
-    warning: 2
-    error: 2
   validates_start_with_lowercase: false
   allowed_symbols:
     - '_'
@@ -191,16 +185,9 @@ custom_rules:
     regex: '\bNSPoint\b'
     match_kinds: typeidentifier
     message: 'Use CGPoint instead of NSPoint'
-  no_cgfloat:
-    regex: '\bCGFloat\b'
-    match_kinds: typeidentifier
-    message: 'Use Double instead of CGFloat'
-  no_cgfloat2:
-    regex: '\bCGFloat\('
-    message: 'Use Double instead of CGFloat'
   swiftui_state_private:
-    regex: '@(State|StateObject|ObservedObject|EnvironmentObject)\s+var'
-    message: 'SwiftUI @State/@StateObject/@ObservedObject/@EnvironmentObject properties should be private'
+    regex: '@(State|StateObject|EnvironmentObject)\s+var'
+    message: 'SwiftUI @State/@StateObject//@EnvironmentObject properties should be private'
   swiftui_environment_private:
     regex: '@Environment\(\\\.\w+\)\s+var'
     message: 'SwiftUI @Environment properties should be private'
