@@ -152,21 +152,6 @@ for_where:
   allow_for_as_filter: true
 number_separator:
   minimum_length: 7
-identifier_name:
-  validates_start_with_lowercase: false
-  allowed_symbols:
-    - '_'
-  excluded:
-    - 'x'
-    - 'y'
-    - 'z'
-    - 'a'
-    - 'b'
-    - 'x1'
-    - 'x2'
-    - 'y1'
-    - 'y2'
-    - 'z2'
 deployment_target:
   macOS_deployment_target: '10.15'
   iOS_deployment_target: '13'
